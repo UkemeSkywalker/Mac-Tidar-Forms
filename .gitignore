@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+.data
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+.terraform
+*.tfstate*
+*.tfvars
+!*.tfvars.example

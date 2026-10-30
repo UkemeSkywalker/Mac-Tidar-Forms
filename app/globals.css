@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #16382c;
+  --color-forest-soft: #24503f;
+  --color-mint: #bfe8d2;
+  --color-mint-soft: #e6f5ec;
+  --color-linen: #f7f4ec;
+  --color-paper: #fffdf8;
+  --color-line: #e2dccd;
+  --color-ink: #1d2320;
+  --color-muted: #66706a;
+  --color-danger: #a8322a;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background: var(--color-linen);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--color-line);
+  border-radius: 0.5rem;
+  background: var(--color-paper);
+  padding: 0.55rem 0.75rem;
+  font-size: 0.925rem;
+}
+.input:focus {
+  outline: 2px solid var(--color-forest-soft);
+  outline-offset: 1px;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.95rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.btn-primary {
+  background: var(--color-forest);
+  color: var(--color-paper);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-forest-soft);
+}
+.btn-ghost {
+  border: 1px solid var(--color-line);
+  background: var(--color-paper);
+}
+.btn-ghost:hover:not(:disabled) {
+  background: var(--color-mint-soft);
+}
+.card {
+  border: 1px solid var(--color-line);
+  border-radius: 0.875rem;
+  background: var(--color-paper);
+}
