@@ -50,7 +50,28 @@ The signed-in home on the grid. Header with logo, user name and Sign out. Headli
 
 ## 4. Form builder
 
-The question editor. Tabs: Questions, Spreadsheet, Dashboard, where the active tab has a small yellow swipe behind it. A sticky toolbar with Save, Publish or Unpublish, Copy link, Preview and a quiet Delete form. A centred column with a title and description card, then one white card per question: question text, type selector (short answer, paragraph, email, number, date, multiple choice, checkboxes, dropdown, rating 1 to 5), help text, editable options with remove buttons, a Required toggle, move up and down, and remove. Finish with a dashed Add question button. No portrait or scribble: keep it focused.
+A full-screen, desktop-first drag-and-drop form editor in the shared style. Use the attached form builder image for layout only: its structure, not its colours, shadows or fonts.
+
+**Far-left rail:** a narrow white icon rail with logo, Forms, Templates, Responses, Dashboard and sign out at the bottom. The active icon sits on a yellow marker swipe.
+
+**Top bar:** thin white bar. Left: back arrow, editable form title and the form's link in small grey text. Centre: icon tools for Questions, Pages, Theme, Logic and Settings, with Undo and Redo. Right: Preview, Share, a near-black Publish button and the user's avatar and name.
+
+**Left panel:** a white panel with two tabs, Blocks and Templates, and a search box. The active tab has a small yellow swipe.
+- **Blocks tab:** a two-column grid of draggable tiles, each with a simple line icon and label, grouped under small headings.
+  - Questions: short answer, paragraph, email, number, date, multiple choice, checkboxes, dropdown, rating.
+  - Media: picture, video.
+  - Layout and text: heading, text, divider, columns, section.
+  - Elements: hand-drawn arrow, highlight swipe, scribble, sticker.
+- **Templates tab:** a scrollable list of predesigned forms with small thumbnails, filter chips by solution, and a Use template action. Show customer feedback, event registration, job application, contact, order form, survey, booking and client intake.
+
+**Canvas, on the graph-paper background:** a device toggle for desktop, tablet and phone, with zoom controls above the canvas. The form appears as its respondent will see it, with a title, a picture banner, a video block, a hand-drawn arrow pointing at a question, and several question blocks.
+
+**Show drag and drop in action:**
+- A tile being dragged from the panel, with a tilted ghost following the cursor and a yellow insertion line on the canvas where it will land.
+- One selected block with a dashed near-black outline, a small yellow label tab naming the block, a drag handle, and duplicate and delete actions.
+- A small settings popover on the selected block for required, help text and options, or for upload and replace on media blocks. Arrows and stickers show resize and rotate handles.
+
+Also show the empty canvas: "**Drag** your first block here", with a hand-drawn arrow from the left panel and a link to start from a template. No portrait on this screen.
 
 ## 5. Public form
 
